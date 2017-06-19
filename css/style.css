@@ -1,0 +1,466 @@
+
+body {
+  overflow-x: hidden;
+  font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.text-muted {
+  color: #777777;
+}
+.text-primary {
+  color: #fed136;
+}
+p {
+  font-size: 14px;
+  line-height: 1.75;
+}
+p.large {
+  font-size: 16px;
+}
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+  outline: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+img.collie {
+    margin-top: -3px;
+}
+.tooltip.right .tooltip-arrow {
+  top: 50%;
+  left: 0;
+  margin-top: -5px;
+  border-width: 2px 2px 0;
+  border-right-color: #84cdc6;
+}
+.tooltip-inner {
+  max-width: 200px;
+  padding: px 8px;
+  color: #fff;
+  text-align: center;
+  background-color: #84cdc6;
+  border: 1px solid #43a399;
+  border-radius: 4px;
+}
+.topnav {
+    font-size: 14px; 
+}
+.img-centered {
+  margin: 0 auto;
+}
+section {
+  padding: 40px 0;
+}
+@media (min-width: 768px) {
+  section {
+    padding: 140px 0;
+  }
+}
+/*****nav********************/
+.navbar-custom {
+  background-color: #222222;
+  border-color: transparent;
+}
+.navbar-custom .navbar-brand {
+  color: #fed136;
+  font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+}
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-brand:focus,
+.navbar-custom .navbar-brand:active,
+.navbar-custom .navbar-brand.active {
+  color: #fec503;
+}
+.navbar-custom .navbar-collapse {
+  border-color: rgba(255, 255, 255, 0.02);
+}
+.navbar-custom .nav li a {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: white;
+}
+.navbar-custom .nav li a:hover,
+.navbar-custom .nav li a:focus {
+  color: #c6c6ec;
+  outline: none;
+}
+.navbar-custom .navbar-nav > .active > a {
+  border-radius: 0;
+  color: purple;
+  background-color: #f0f0f5;
+}
+.navbar-custom .navbar-nav > .active > a:hover,
+.navbar-custom .navbar-nav > .active > a:focus {
+  color: #000;
+  background-color: #f0f0f5;
+}
+.navbar-toggle {
+    color: #fff;
+}
+@media (min-width: 768px) {
+  .navbar-custom {
+    background-color: transparent;
+    padding: 25px 0;
+    -webkit-transition: padding 0.3s;
+    -moz-transition: padding 0.3s;
+    transition: padding 0.3s;
+    border: none;
+  }
+  .navbar-custom .navbar-brand {
+    font-size: 2em;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  .navbar-custom .navbar-nav > .active > a {
+    border-radius: 3px;
+  }
+}
+@media (min-width: 768px) {
+  .navbar-custom.affix {
+    background-color: #222222;
+    padding: 10px 0;
+  }
+  .navbar-custom.affix .navbar-brand {
+    font-size: 1.5em;
+  }
+}
+/**************HEADER******************/
+.bigEntrance{
+    animation-name: bigEntrance;
+    -webkit-animation-name: bigEntrance;    
+    animation-duration: 1.6s;   
+    -webkit-animation-duration: 1.6s;
+    animation-timing-function: ease-out;    
+    -webkit-animation-timing-function: ease-out;    
+    visibility: visible !important;         
+}
+@keyframes bigEntrance {
+    0% {
+        transform: scale(0.3) rotate(6deg) translateX(-30%) translateY(30%);
+        opacity: 0.2;
+    }
+    30% {
+        transform: scale(1.03) rotate(-2deg) translateX(2%) translateY(-2%);        
+        opacity: 1;
+    }
+    45% {
+        transform: scale(0.98) rotate(1deg) translateX(0%) translateY(0%);
+        opacity: 1;
+    }
+    60% {
+        transform: scale(1.01) rotate(-1deg) translateX(0%) translateY(0%);     
+        opacity: 1;
+    }   
+    75% {
+        transform: scale(0.99) rotate(1deg) translateX(0%) translateY(0%);
+        opacity: 1;
+    }
+    90% {
+        transform: scale(1.01) rotate(0deg) translateX(0%) translateY(0%);      
+        opacity: 1;
+    }   
+    100% {
+        transform: scale(1) rotate(0deg) translateX(0%) translateY(0%);
+        opacity: 1;
+    }       
+}
+@-webkit-keyframes bigEntrance {
+    0% {
+        -webkit-transform: scale(0.3) rotate(6deg) translateX(-30%) translateY(30%);
+        opacity: 0.2;
+    }
+    30% {
+        -webkit-transform: scale(1.03) rotate(-2deg) translateX(2%) translateY(-2%);        
+        opacity: 1;
+    }
+    45% {
+        -webkit-transform: scale(0.98) rotate(1deg) translateX(0%) translateY(0%);
+        opacity: 1;
+    }
+    60% {
+        -webkit-transform: scale(1.01) rotate(-1deg) translateX(0%) translateY(0%);     
+        opacity: 1;
+    }   
+    75% {
+        -webkit-transform: scale(0.99) rotate(1deg) translateX(0%) translateY(0%);
+        opacity: 1;
+    }
+    90% {
+        -webkit-transform: scale(1.01) rotate(0deg) translateX(0%) translateY(0%);      
+        opacity: 1;
+    }   
+    100% {
+        -webkit-transform: scale(1) rotate(0deg) translateX(0%) translateY(0%);
+        opacity: 1;
+    }               
+}
+.myHeader {
+    width: 100%;
+    height: auto;
+    background: url(../img/atoms-copy.png) center no-repeat; 
+    background-size: cover;
+}
+/*********header content************/
+.intro-message {
+   position: relative;
+    text-align: center;
+    padding: 10% 2% 20%;
+    color: #F4F4FF;
+}
+ h1 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 5em;
+}
+.intro-divider {
+    width: 25%;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+.intro-message > h3 {
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+}
+@media(max-width:559px) {
+ .navbar-toggle {
+    background-color: none;
+ }   
+  .intro-message {
+    padding: 25% 2% 15%;    
+  }  
+  h1 {
+    font-size: 3em;
+  }  
+  h2 {
+    font-size: 1.25em;
+  }     
+}
+@media (min-width: 768px) {
+  header .intro-message {
+    padding-top: 300px;
+    padding-bottom: 200px;
+  }
+}
+/******************About Section******************/
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+.clearfix:after {
+    clear: both;
+}
+/**
+ * For IE 6/7 only
+ * trigger hasLayout and contain floats.
+ */
+.clearfix {
+    *zoom: 1;
+}
+.wrapper {
+  padding: 30px;
+  max-width: 950px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.img-circle {
+  width: 220px;
+  height: 220px;
+  margin-right: 50px;
+  border-radius: 50%;
+  float: left;
+  
+  shape-outside: circle();
+  -moz-shape-outside: circle();
+  -ms-shape-outside: circle();
+  -webkit-shape-outside: circle();
+}
+.fadeIn {
+    animation-name: fadeIn;
+    -webkit-animation-name: fadeIn; 
+
+    animation-duration: 1.5s;   
+    -webkit-animation-duration: 1.5s;
+    animation-delay: 1.5s;
+    -webkit-animation-delay: 1.5s;
+    animation-timing-function: ease-in-out; 
+    -webkit-animation-timing-function: ease-in-out;     
+
+    visibility: visible !important; 
+}
+@keyframes fadeIn {
+    0% {
+        transform: scale(0);
+        opacity: 0.0;       
+    }
+    60% {
+        transform: scale(1.1);  
+    }
+    80% {
+        transform: scale(0.9);
+        opacity: 1; 
+    }   
+    100% {
+        transform: scale(1);
+        opacity: 1; 
+    }       
+}
+@-webkit-keyframes fadeIn {
+    0% {
+        -webkit-transform: scale(0);
+        opacity: 0.0;       
+    }
+    60% {
+        -webkit-transform: scale(1.1);
+    }
+    80% {
+        -webkit-transform: scale(0.9);
+        opacity: 1; 
+    }   
+    100% {
+        -webkit-transform: scale(1);
+        opacity: 1; 
+    }       
+}
+@media (max-width: 700px) {
+     .img-circle {
+      width: 100px;
+      height: 100px;
+      margin-right: 40px
+      }
+}
+/************Skills Section********************/
+#skills-section {    
+    color: #fff;
+    background: #336699; /* Old browsers */
+    background: -moz-linear-gradient(to right, #336699 0%, #cc99ff 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(to right, #336699 0%, #cc99ff 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #336699 0%, #cc99ff 100%);
+}
+.know-me {
+    padding-left: 20%;
+}
+.btn-default {
+    margin: 5px;
+    font-size: 18px;
+}
+.btn-default:hover {
+    color:purple;
+    font-style:italic;
+    background: #fff;
+}
+@media (max-width: 1024px) {
+  .know-me {    
+    padding: 35px 0 0;
+  }
+  .know-me, .tech-skills {
+    text-align: center;
+  }
+   ul  {
+     list-style-type: none;
+  }
+}
+/**************Portfolio Section*************/
+#portfolio .portfolio-item {
+  margin: 0 0 15px;
+  right: 0; 
+}
+.portfolio-link .portfolio-caption {
+    border: 1px solid #d2d3d4;
+}
+a.portfolio-link {
+    border-bottom: none;
+}
+#portfolio .portfolio-item .portfolio-link {
+  display: block;
+  position: relative;
+  max-width: 400px;
+  margin: 0 auto;
+}
+#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+/**background: #000066;***/
+ box-shadow: 0 10px 22px -6px #000066;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all ease 0.5s;
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+}
+#portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
+  opacity: 0.75;
+}
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  font-size: 20px;
+  text-align: center;
+  top: 50%;
+  margin-top: -12px;
+  color: white;
+}
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
+  margin-top: -12px;
+}
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
+  margin: 0;
+}
+#portfolio .portfolio-item .portfolio-caption {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #f0f0f5;  
+  text-align: center;
+  padding: 25px;
+}
+#portfolio .portfolio-item .portfolio-caption h4 {
+  text-transform: none;
+  margin: 0;
+}
+#portfolio .portfolio-item .portfolio-caption p {
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: italic;
+  font-size: 16px;
+  margin: 0;
+}
+#portfolio * {
+  z-index: 2;
+}
+@media (min-width: 767px) {
+  #portfolio .portfolio-item {
+    margin: 0 0 30px;
+  }
+}
+/****footer******************/
+footer {
+    padding: 50px 0;
+    background: url(../img/footer-atoms.png) no-repeat center center;
+    background-size: cover;
+}
+.footer-list a {
+    color: #fff;
+    text-decoration: none;
+}
+.footer-list a:hover {
+    font-size: 20px;
+}
+p.copyright {
+    margin: 15px 0 0;
+}
+.text-muted {
+    color:#404040;
+}
