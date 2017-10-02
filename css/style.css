@@ -1,7 +1,7 @@
 
 body {
   overflow-x: hidden;
-  font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "PT Sans", sans-serif, Helvetica, Arial, sans-serif;
 }
 .text-muted {
   color: #777777;
@@ -10,7 +10,7 @@ body {
   color: #fed136;
 }
 p {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.75;
 }
 p.large {
@@ -29,7 +29,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Merienda', cursive, Arial, sans-serif; 
   text-transform: uppercase;
   font-weight: 700;
 }
@@ -217,13 +217,13 @@ section {
 .intro-message {
    position: relative;
     text-align: center;
-    padding: 10% 2% 20%;
+    padding: 20% 2%;
     color: #F4F4FF;
 }
  h1 {
     margin: 0;
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
-    font-size: 5em;
+    font-size: 8em;
 }
 .intro-divider {
     width: 25%;
