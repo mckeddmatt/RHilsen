@@ -1,0 +1,138 @@
+
+body {
+  overflow-x: hidden;
+  font-family: "PT Sans", sans-serif, Helvetica, Arial, sans-serif;
+}
+.text-muted {
+  color: #777777;
+}
+.text-primary {
+  color: #fed136;
+}
+p {
+  font-size: 16px;
+  line-height: 1.75;
+}
+p.large {
+  font-size: 16px;
+}
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+  outline: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Merienda', cursive, Arial, sans-serif; 
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.img-centered {
+  margin: 0 auto;
+}
+section {
+  padding: 40px 0;
+}
+a {
+    color: #00cccc;
+    text-decoration: none;
+}
+@media (min-width: 768px) {
+  section {
+    padding: 80px 0;
+  }
+}
+/**************HEADER******************/
+.myHeader {
+    width: 100%;
+    height: auto;
+    background: url(../img/blue-wall-header.jpg) center no-repeat; 
+    background-size: cover;
+}
+/*********header content************/
+.intro-message {
+   position: relative;
+    text-align: center;
+    padding: 20% 2%;
+    color: #fff;
+}
+ h1 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 8em;
+}
+.intro-divider {
+    width: 25%;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+.intro-message > h3 {
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+}
+@media(max-width:559px) {
+ .navbar-toggle {
+    background-color: none;
+ }   
+  .intro-message {
+    padding: 25% 2% 15%;    
+  }  
+  h1 {
+    font-size: 3em;
+  }  
+  h2 {
+    font-size: 1.25em;
+  }     
+}
+@media (min-width: 768px) {
+  header .intro-message {
+    padding-top: 300px;
+    padding-bottom: 200px;
+  }
+}
+/******************About Section******************/
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+.clearfix:after {
+    clear: both;
+}
+/**
+ * For IE 6/7 only
+ * trigger hasLayout and contain floats.
+ */
+.clearfix {
+    *zoom: 1;
+}
+.wrapper {
+  padding: 30px;
+  max-width: 950px;
+  margin-right: auto;
+  margin-left: auto;
+}
+/****footer******************/
+footer {
+    padding: 50px 0;
+    background: url(../img/blue-wall.jpg) no-repeat center center;
+    background-size: cover;
+}
+.footer-list a {
+    color: #fff;
+    text-decoration: none;
+}
+.footer-list a:hover {
+    font-size: 20px;
+}
+p.copyright {
+    margin: 15px 0 0;
+}
+.text-muted {
+    color:#404040;
+}
