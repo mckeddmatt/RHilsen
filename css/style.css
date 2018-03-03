@@ -65,7 +65,7 @@ a {
  h1 {
     margin: 0;
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
-    font-size: 8em;
+    font-size: 6em;
 }
 .intro-divider {
     width: 25%;
@@ -83,7 +83,7 @@ a {
     padding: 25% 2% 15%;    
   }  
   h1 {
-    font-size: 3em;
+    font-size: 2em;
   }  
   h2 {
     font-size: 1.25em;
